@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Generator</title>
+  </head>
+  <body>
+    <h1>Motivasi untuk hari ini</h1>
+    <p id="quote"></p>
+    <button onclick="generateQuote()">Get Motivation</button>
+
+    <script>
+      const quotes = ["bangkit berdiri dan jadilah Terang", "selalu berusaha dan jangan pernah menyerah", "Teruslah Mencoba"];
+
+      function generateQuote() {
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        document.getElementById("quote").innerText = quotes[randomIndex];
+      }
+    </script>
+  </body>
+</html>

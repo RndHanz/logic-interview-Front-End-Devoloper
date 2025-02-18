@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motivasi</title>
+  </head>
+  <body>
+    <h1>Dapatkan Motivasi Hari Ini</h1>
+    <p id="Motivasi"></p>
+    <button onclick="generateMotivasi()">Get Motivasi</button>
+    <script>
+      const quotes = ["Teruslah Berjuang", "Jangan pernah menyerah", "Selalu Berusaha"];
+
+      function generateMotivasi() {
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        document.getElementById("Motivasi").innerText = quotes[randomIndex];
+      }
+    </script>
+  </body>
+</html>

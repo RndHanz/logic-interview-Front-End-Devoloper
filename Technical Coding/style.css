@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  padding-top: 100px;
+}
+
+.box {
+  flex: 1;
+  margin: 15px;
+  padding: 14px;
+  border: 2px solid;
+}
