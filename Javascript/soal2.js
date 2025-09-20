@@ -8,4 +8,4 @@ function holla(str) {
   return holla;
 }
 
-console.log(reverseString("hello")); // Output: "olleh"
+console.log(holla("hello")); // Output: "olleh"
