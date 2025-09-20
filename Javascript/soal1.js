@@ -1,15 +1,17 @@
-function test() {
+function start() {
   var a = 1;
   var b = 2;
+  var c = 3;
 
-  console.log("Hasil a = ", a);
-  console.log("Hasil b = ", b);
-
-  a = b;
-  b -= a + -1;
-
-  console.log("Final a = ", a);
-  console.log("Final b = ", b);
+  console.log(a + b + c);
 }
+start();
 
-test();
+function run() {
+  var a = 4;
+  var b = 5;
+  var c = 6;
+
+  console.log("Hasil Dari A + B + C adalah : ", a - b + c);
+}
+run();
