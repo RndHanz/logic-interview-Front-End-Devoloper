@@ -1,11 +1,11 @@
 // Membalik nilai string menggunakan for loop
 
-function reverseString(str) {
-  let newString = "";
+function holla(str) {
+  let holla = "";
   for (let i = str.length - 1; i >= 0; i--) {
-    newString += str[i];
+    holla += str[i];
   }
-  return newString;
+  return holla;
 }
 
 console.log(reverseString("hello")); // Output: "olleh"
